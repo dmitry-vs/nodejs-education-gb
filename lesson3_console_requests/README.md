@@ -1,8 +1,8 @@
 # News
 
-Console script to fetch new headlines from Yandex home page.
+Console script to fetch news headlines from Yandex home page.
 
-Uses request module to get page content and cheerio module to parse it.
+Uses `request` module to get page content and `cheerio` module to parse it.
 
 ## Example
 
@@ -19,3 +19,18 @@ Uses request module to get page content and cheerio module to parse it.
     9. Опубликовано видео частично затонувшего норвежского фрегата
     10. В Совете Европы опасаются возможного выхода России из организации
 
+---
+
+# Translate
+
+Console script to translate Russian text to English using Yandex Translate API.
+
+API key is required to perform requests using Yandex Translate API.
+
+## Example
+
+    >node translate.js
+    Input Russian text to be translated to English
+    :>Кошка
+    Translation result:
+    Cat
