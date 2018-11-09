@@ -20,7 +20,7 @@ Result gets saved to a log file, which then can be used to count game stats and 
 
 ## Example
 
-    >node lesson2_head_or_tails.js --log logfile.log
+    >node head_or_tails.js --log logfile.log
     Guess a number - 1 or 2?
     :>1
     You win!
