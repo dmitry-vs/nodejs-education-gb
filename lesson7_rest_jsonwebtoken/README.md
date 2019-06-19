@@ -15,3 +15,7 @@ Model data (users, password hashes and tasks) is stored in Mongo database.
 * `/tasks:id`, `PUT` - replace task with selected id using parametes in request body
 * `/tasks:id`, `PATCH` - update task with selected id using parameters in request body
 * `/tasks:id`, `DELETE` - delete task with selected id.
+
+![](screen.png)
+
+---
