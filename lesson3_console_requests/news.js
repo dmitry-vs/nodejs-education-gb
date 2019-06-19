@@ -17,7 +17,7 @@ request('https://yandex.ru', (err, response, body) => {
 // function to parse html and get news headlines
 let getNews = htmlContent => {
     const $ = cheerio.load(htmlContent);
-    const newsAnchors = $('div#tabnews_newsc li a');
+    const newsAnchors = $('div#news_panel_news li a');
 
     result = [];
     for(let i = 0; i < newsAnchors.length; i++) {
